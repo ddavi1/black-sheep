@@ -1,0 +1,45 @@
+    /* Estilos das flores animadas */
+    .flower {
+        width: 20px;
+        height: 20px;
+        background-color: #f7b32d;
+        border-radius: 50%;
+        position: absolute;
+        animation: animate 3s linear infinite;
+      }
+      @keyframes animate {
+        0% {
+          transform: translateY(0) rotate(0deg);
+        }
+        100% {
+          transform: translateY(-200px) rotate(360deg);
+        }
+      }
+      .flower:nth-child(2) {
+        left: 20%;
+        width: 30px;
+        height: 30px;
+        background-color: #ffdc5e;
+        animation-duration: 4s;
+      }
+      .flower:nth-child(3) {
+        left: 40%;
+        width: 25px;
+        height: 25px;
+        background-color: #ffac33;
+        animation-duration: 3.5s;
+      }
+      .flower:nth-child(4) {
+        left: 60%;
+        width: 22px;
+        height: 22px;
+        background-color: #ffdc5e;
+        animation-duration: 4.5s;
+      }
+      .flower:nth-child(5) {
+        left: 80%;
+        width: 18px;
+        height: 18px;
+        background-color: #f7b32d;
+        animation-duration: 3s;
+      }
